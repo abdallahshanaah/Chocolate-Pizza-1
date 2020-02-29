@@ -1,0 +1,94 @@
+#allbody {
+    width: 800px;
+    line-height: 1;
+    margin-left: auto;
+    margin: auto;
+}
+footer {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#mainimg{
+    float: left;
+    padding: 20px;
+    
+}
+#name{
+    padding: 23px;
+}
+#name h5{
+    font-family: sans-serif;
+    margin: 2px;
+    padding: 2px;
+}
+#name p{
+    width: fit-content;
+    padding: 9px;
+    margin: -6px;
+}
+#a-link{
+    right: 250px;
+    padding: 14px;
+    background-color: rgb(221, 140, 33);
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    top: 250px;
+}
+
+#img2{
+font-family: sans-serif;
+margin : 40px auto;
+text-align: center;
+font-size: 40px;
+position:relative;
+clear :both;
+}
+#img2::before{
+    content: "";
+    display: block;
+    width: 360px;
+    height: 0.5px;
+    background: gray;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+#img2::after{
+    content: "";
+display:block;
+width: 360px;
+height:0.5px;
+background: gray;
+position: absolute;
+right: 0;
+top: 50%;
+z-index: -2;
+}
+#lastdiv{    
+     text-align: -webkit-center;
+}
+#check1{
+    float: left;
+    padding: 0px 215px 0px 50px;
+}
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  
+text-decoration-line: line-through ;
+}
+#form{
+    padding: 34px;
+    background-size: cover;
+    background-image: url(../img/list-bg.png);
+  
+}
+
+#HR{
+    border-top: 5px groove;
+    color: gray;
+    margin: 25px;
+    padding: 0px;
+}
